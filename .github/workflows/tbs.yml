@@ -26,7 +26,7 @@ jobs:
         server: ${{ secrets.SERVER }}
         token: ${{ secrets.TOKEN }}
         ca_cert: ${{ secrets.CA_CERT }}
-        namespace: ${{ secrets.NAMESPACE }}
+        namespace: default
         # Image configuration
         destination: europe-west3-docker.pkg.dev/pa-tsalm/tap-14/workloads/spring-boot-hello-world-gha
     - name: Do something with image
